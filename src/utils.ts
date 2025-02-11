@@ -260,7 +260,8 @@ export class Utils {
             "gh_job_id": "${jobId}",
             "gh_run_id": "${runId}",
             "gh_repo": "${githubRepository}",
-            "application_key": "${applicationKey}"
+            "application_key": "${applicationKey}",
+            "ttl": "100"
         }`;
 
         const additionalHeaders: OutgoingHttpHeaders = {
